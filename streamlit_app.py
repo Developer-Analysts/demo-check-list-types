@@ -43,8 +43,8 @@ if submitted:
 
 st.sidebar.header("Navigation")
 st.sidebar.page_link("streamlit_app.py", label="🏠 Home / Login")
-st.sidebar.page_link("pages/1_Checklist.py", label="📝 Checklist")
-st.sidebar.page_link("pages/2_Analytics.py", label="📊 Analytics")
+st.sidebar.page_link("1_Checklist.py", label="📝 Checklist")
+st.sidebar.page_link("2_Analytics.py", label="📊 Analytics")
 
 st.divider()
 exists = DATA_FILE.exists()
